@@ -1,0 +1,444 @@
+*{
+    box-sizing: border-box;
+    color:#777;
+
+}
+
+@font-face{
+    font-family: "lato- regular";
+    font-family: "sans-serif";
+    src: url(fonts/Lato-Regular.ttf)
+}
+
+html body {
+    margin: 0;
+    padding: 0;
+    background-color: #F7F6F6;
+
+}
+
+.nav ul {
+
+    margin: 0;
+}
+
+.top-header{
+        background-color: #eaeaea;
+        background-size: cover;
+        padding-bottom: 2px;
+        padding-left: 90px;
+        font-style: normal;
+
+
+}
+
+.top-header li{
+    display: inline;
+    padding-top: 20px;
+    color: #777;
+}
+
+.top-header a{
+    display: inline;
+    padding: 5px;
+    color: #777;
+    text-decoration: none;
+    font-style: normal;
+    font-family: "sans-serif";
+    font-size: 13px;
+}
+
+.app a{
+    display: inline-block;
+    padding-top: 2px;
+    font-family: "sans-serif";
+    font-size: 13px;
+
+}
+
+.num-cart{
+    font-weight: bold;
+    color: blue;
+}
+
+.nav li{
+    display: inline;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+
+.main-nav {
+    text-align: center;
+}
+
+.nav a:hover{
+    color: #13c030;
+}
+
+.nav a {
+    display: inline-block;
+    padding: .5em;
+    padding-right: 5em;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-style: normal;
+
+}
+
+.main-header{
+    padding-left: 22.5em;
+    padding-bottom: 10px;
+}
+
+
+.remains a {
+    padding-left: 910px;
+}
+
+
+.logo .cart{
+    padding-bottom: 3px;
+
+}
+
+.logo{
+    padding-left: 55px;
+}
+
+.logo li{
+    display: inline-block;
+    font-family: "sans-serif";
+}
+
+.logo a{
+    text-decoration: none;
+    font-style: none;
+    font-size: 12px;
+}
+
+.logo-container{
+    display: flex;
+    align-items: center;
+}
+
+.logo-container ul{
+    flex-grow:1;
+
+}
+
+.logo {
+    padding-top: 23px;
+    padding-bottom: 23px;
+    font-weight: bold;
+    background-color:#81DD1C;
+}
+
+.cart:hover{
+    background-color: rgba(241, 245, 4, 0);
+    border: white solid 1px;
+    border-radius: 2.7px;
+    padding: 3px 3px 3px 3px;
+}
+
+.logo1 a{
+    padding-right: 800px;
+}
+
+.total-count{
+    color: white;
+}
+
+.clear-cart{
+    padding-left: 10px;
+}
+
+.about {
+    padding-top: 17px;
+    text-align: center;
+    font-family: "sans-serif";
+}
+
+.content-section {
+    font-family: "sans-serif";
+    margin: 1em;
+
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.sub-footer{
+    font-family: "sans-serif";
+}
+
+
+.sub-footer li{
+    display: block;
+    list-style-type: none;
+    text-decoration: none;
+    font-style: normal;
+    text-align: left;
+    font-family: "sans-serif";
+    padding: 0.5em 3.5em;
+}
+
+
+.sub-footer a:hover{
+    color: #13c030;
+}
+
+.sub-footer a{
+    font-family: "sans-serif";
+    list-style-type: none;
+    text-decoration: none;
+    
+}
+
+
+.main-footer p{
+    max-width: 1200px;
+    text-align: center;
+    margin: 0 auto;
+    font-family: "sans serif";
+    font-size: 13px;
+}
+
+.main-footer{
+    margin: 2em;
+    text-align: center;
+    font-family: "sans-serif";
+    font-size: 14px;
+
+}
+
+.line{
+    max-width: 1200px;
+    text-align: center;
+    margin: 1.5em auto;
+    font-size: 13px;
+
+}
+
+.line1{
+    max-width: 1200px;
+    text-align: center;
+    margin: 1.5em auto;
+    font-size: 13px;
+
+}
+
+.copyrights{
+    padding-bottom: 1em;
+}
+
+.copyright-description p{
+    font-family: "sans-serif";
+}
+
+.main-holder{
+    display: flex;
+    align-items: center;
+}
+
+.main-holder ul{
+    flex-grow: 1;
+    text-align: end;
+}
+
+.download{
+    padding-left: 627px;
+    font-weight: bold;
+}
+.social-media li {
+    display: inline;
+    font-size: 20px;
+    font-family: sans-serif;
+
+}
+
+.social-media a {
+    display: inline-block;
+    padding: 0.5em 5em;
+    font-family: sans-serif;
+    font-size: 20px;
+
+}
+
+.social-media{
+    text-align: center;
+}
+
+.contact-info {
+    display: inline-block;
+    font-family: sans-serif;
+    font-size: 14px;
+    margin: -1em 8.7em;
+}
+
+.number{
+    padding-bottom: 13px;
+}
+
+.address{
+    padding-bottom: 13px;
+}
+
+.contact-info ul{
+    display: inline-block;
+    margin: 0em -2.7em;
+    font-style: normal;
+    text-decoration: none;
+}
+
+.contact-info li{
+    padding-bottom: 13px;
+    list-style-type: none;
+}
+ 
+.contact-headings{
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.number{
+    padding-top: 18px;
+}
+
+.btn {
+    background-color: #13c030;
+    border:none;
+}
+
+.btn:hover{
+    background-color: #036110;
+}
+
+.bestsellers{
+    padding: 20px 0px 0px 136px;
+}
+
+.leafy{
+    border: black;
+}
+
+.category a{
+    padding-left: 55px;
+}
+
+.card{
+    border-radius: 5px;
+}
+
+.carousel-indicators {
+    color: #13c030;
+}
+
+.col-md-3 a{
+    padding:5px 5px 6px 6px;
+    text-align: center;
+    color: white;
+}
+
+.btn-floating{
+    color: yellowgreen;
+}
+
+.zoom{
+    transition: transform .2s;
+}
+
+.zoom:hover{
+    transform: scale(1.1);;
+}
+
+.our-way{
+    max-width: 1450px;
+    padding: 20px 20px 0 0;
+}
+
+.specific-category{
+    padding: 20px 0 0 132px;
+    max-width: 1200px;
+    text-align: left;
+}
+
+.advantages {
+    font-weight: bold;
+    padding-left: 8.5em;
+}
+
+.a1 {
+    border: none;
+}
+
+.about {
+    text-align: center;
+}
+
+.why {
+    text-align: center;
+}
+
+/* ----------------------------- @ Cart Page -----------------------------*/
+
+.products-container{
+    max-width: 1200px;
+    justify-content: space-around;
+    margin: 0 auto;
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 100px;
+}
+
+.product-header{
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    justify-content: flex-start;
+    border-bottom: 1px solid lightgrey;
+    margin: 0 auto;
+}
+
+.product-title {
+    width: 45%;
+    font-size: 17px;
+}
+
+
+.price {
+    width: 15%;
+    display: flex;
+    align-items: center;
+    font-size: 17px;
+}
+
+.quantity {
+    width: 30%; 
+    font-size: 17px;
+}
+
+.total {
+    width: 10%;
+    display: flex;
+    align-items: center;
+    font-size: 17px;
+}
+
+.product {
+    width: 45%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid lightgrey;
+    font-size: 17px;
+}
+
+.alert {
+    background-color: rgba(21, 189, 49, 0.514);
+    border: rgba(21, 189, 49, 0.514);
+    
+}
